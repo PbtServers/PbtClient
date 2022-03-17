@@ -1,9 +1,15 @@
-# Fabric Example Mod
+# PbtClient
 
-## Setup
+El Cliente de PbtServers, Creado Utilizando Fabric!
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Creado Utilizando:
 
-## License
+ [PbtTexturas] --> https://ci.pbtservers.com/job/PbtTexturas-Mod%20(Archivado)/
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+ [Vistas] --> https://github.com/TerraformersMC/Vistas
+ 
+ [MultiConnect] --> https://github.com/Earthcomputer/multiconnect
+ 
+ [simple-utilities-mod] --> https://github.com/johnvictorfs/simple-utilities-mod
+ 
+ [Effective] --> https://github.com/Ladysnake/Effective/tree/1.18-dev
