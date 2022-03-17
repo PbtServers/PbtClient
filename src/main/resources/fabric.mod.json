@@ -18,8 +18,7 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [ "com.pbtservers.pbtclient.PbtClient" ],
-    "vistas": [ "com.pbtservers.pbtclient.Vistas" ]
+    "main": [ "com.pbtservers.pbtclient.PbtClient" ]
   },
   "mixins": [
     "modid.mixins.json"
