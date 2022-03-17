@@ -7,5 +7,3 @@ Creado Utilizando:
  [PbtTexturas] --> https://ci.pbtservers.com/job/PbtTexturas-Mod%20(Archivado)/
 
  [Vistas] --> https://github.com/TerraformersMC/Vistas
- 
- [MultiConnect] --> https://github.com/Earthcomputer/multiconnect
