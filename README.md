@@ -9,5 +9,3 @@ Creado Utilizando:
  [Vistas] --> https://github.com/TerraformersMC/Vistas
  
  [MultiConnect] --> https://github.com/Earthcomputer/multiconnect
- 
- [simple-utilities-mod] --> https://github.com/johnvictorfs/simple-utilities-mod
