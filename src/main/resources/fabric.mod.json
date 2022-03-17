@@ -3,14 +3,14 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "PbtClient",
+  "description": "El Cliente de PbtServers, en Fabric!",
   "authors": [
-    "Me!"
+    "Pbt"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://mc.pbtservers.com/",
+    "sources": "https://github.com/PbtServers/PbtClient/"
   },
 
   "license": "CC0-1.0",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.pbtservers.pbtclient.PbtClient"
     ]
   },
   "mixins": [
