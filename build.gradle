@@ -32,7 +32,7 @@ dependencies {
 	
 	// Utilizar MultiConnect
 	modImplementation('net.earthcomputer.multiconnect:multiconnect-api:1.5.10') { transitive = false }
-        modImplementation('net.earthcomputer.multiconnect:multiconnect-slim:1.5.10') { transitive = false }
+        modRuntime('net.earthcomputer.multiconnect:multiconnect-slim:1.5.10') { transitive = false }
     
         // Utilizar Vistas
         modImplementation "com.terraformersmc:Vistas:${project.vistas_version}"
