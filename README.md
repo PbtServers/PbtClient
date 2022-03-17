@@ -11,5 +11,3 @@ Creado Utilizando:
  [MultiConnect] --> https://github.com/Earthcomputer/multiconnect
  
  [simple-utilities-mod] --> https://github.com/johnvictorfs/simple-utilities-mod
- 
- [Effective] --> https://github.com/Ladysnake/Effective/tree/1.18-dev
