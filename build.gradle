@@ -29,10 +29,6 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	
-	// Utilizar MultiConnect
-	modImplementation('net.earthcomputer.multiconnect:multiconnect-api:1.5.10') { transitive = false }
-	modImplementation('net.earthcomputer.multiconnect:multiconnect:1.5.10') { transitive = false }
     
         // Utilizar Vistas
         modImplementation "com.terraformersmc:Vistas:${project.vistas_version}"
