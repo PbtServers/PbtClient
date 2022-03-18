@@ -3,11 +3,14 @@ plugins {
 	id 'maven-publish'
 }
 
-apply plugin: "eclipse"
 apply plugin: 'java'
-sourceCompatibility = JavaVersion.VERSION_17
-targetCompatibility = JavaVersion.VERSION_17
-
+apply plugin: "eclipse"
+ eclipse {
+   jdt {
+     sourceCompatibility = JavaVersion.VERSION_17
+     targetCompatibility = JavaVersion.VERSION_17
+   }
+ }
 
 archivesBaseName = project.archives_base_name
 version = project.mod_version
