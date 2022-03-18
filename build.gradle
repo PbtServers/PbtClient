@@ -4,6 +4,7 @@ plugins {
 }
 
 apply plugin: 'java'
+apply plugin: "eclipse"
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
@@ -19,8 +20,7 @@ repositories {
 	// for more information about repositories.
 	
     mavenCentral()
-    maven { url "https://maven.shedaniel.me/" }
-    maven { name = "CottonMC" url = "https://server.bbkr.space/artifactory/libs-release" }
+    maven { url = "https://server.bbkr.space/artifactory/libs-release" }
     
 }
 
@@ -34,7 +34,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	
 	// Dependencias para Hacer GUIs
-	modImplementation include("io.github.cottonmc:LibGui:5.3.1")
+	modImplementation include("io.github.cottonmc:LibGui:5.3.1+1.18")
 	
 }
 
